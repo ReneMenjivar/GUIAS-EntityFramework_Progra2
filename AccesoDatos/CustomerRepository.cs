@@ -24,5 +24,11 @@ namespace AccesoDatos
 
 
         }
+
+        public int InsertarCliente(Customers customers)
+        {
+            contexto.Customers.Add(customers);
+            return contexto.SaveChanges();
+        }
     }
 }

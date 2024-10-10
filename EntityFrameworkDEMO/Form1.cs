@@ -35,5 +35,30 @@ namespace EntityFrameworkDEMO
             dgvCustomers.DataSource = lista1; 
 
         }
+
+        private Customers CrearCliente()
+        {
+            var cliente = new Customers()
+            {
+                CustomerID = txbCustomerID.Text,
+                CompanyName = txbCompanyName.Text,
+                ContactName = txbContactName.Text,
+                ContactTitle = txbContactTitle.Text,
+                Address = txbAddress.Text,
+            };
+            return cliente;
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnInsertar_Click(object sender, EventArgs e)
+        {
+            var cliente = CrearCliente();
+            var resultado = cr.InsertarCliente(cliente);
+            MessageBox.Show($"Se insertó {resultado}");
+        }
     }
 }
