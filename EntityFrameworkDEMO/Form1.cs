@@ -32,6 +32,10 @@ namespace EntityFrameworkDEMO
             {
                 cliente
             };
+            if (cliente != null)
+            {
+                LlenarCampos(cliente);
+            }
             dgvCustomers.DataSource = lista1; 
 
         }
@@ -49,6 +53,15 @@ namespace EntityFrameworkDEMO
             return cliente;
         }
 
+        private void LlenarCampos(Customers customers)
+        {
+            txbCustomerID.Text = customers.CustomerID;
+            txbCompanyName.Text = customers.CompanyName;
+            txbContactName.Text = customers.ContactName;
+            txbContactTitle.Text = customers.ContactTitle;
+            txbAddress.Text = customers.Address;
+        }
+
         private void label5_Click(object sender, EventArgs e)
         {
 
@@ -59,6 +72,23 @@ namespace EntityFrameworkDEMO
             var cliente = CrearCliente();
             var resultado = cr.InsertarCliente(cliente);
             MessageBox.Show($"Se insertó {resultado}");
+        }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+            var cliente = CrearCliente();
+            cr.actualizarCliente(cliente);
+            
+            var resultado = cr.ObtenerPorID(cliente.CustomerID);
+            List<Customers> lista1 = new List<Customers> { resultado };
+
+            dgvCustomers.DataSource = lista1;
+        }
+
+        private void btnBorrar_Click(object sender, EventArgs e)
+        {
+            var eliminadas = cr.borrarCliente(txbCustomerID.Text);
+            MessageBox.Show($"Se eliminó {eliminadas} filas");
         }
     }
 }

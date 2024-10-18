@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\diego\\source\\repos\\GUIAS-EntityFramework_Progra2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{20A6FAE6-26CE-4F3F-8F2B-A45E612950E7}|EntityFrameworkDEMO\\EntityFrameworkDEMO.csproj|C:\\Users\\diego\\source\\repos\\GUIAS-EntityFramework_Progra2\\entityframeworkdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{20A6FAE6-26CE-4F3F-8F2B-A45E612950E7}|EntityFrameworkDEMO\\EntityFrameworkDEMO.csproj|solutionrelative:entityframeworkdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{20A6FAE6-26CE-4F3F-8F2B-A45E612950E7}|EntityFrameworkDEMO\\EntityFrameworkDEMO.csproj|c:\\users\\diego\\source\\repos\\guias-entityframework_progra2\\entityframeworkdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20A6FAE6-26CE-4F3F-8F2B-A45E612950E7}|EntityFrameworkDEMO\\EntityFrameworkDEMO.csproj|solutionrelative:entityframeworkdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A6FAE6-26CE-4F3F-8F2B-A45E612950E7}|EntityFrameworkDEMO\\EntityFrameworkDEMO.csproj|C:\\Users\\diego\\source\\repos\\GUIAS-EntityFramework_Progra2\\entityframeworkdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{20A6FAE6-26CE-4F3F-8F2B-A45E612950E7}|EntityFrameworkDEMO\\EntityFrameworkDEMO.csproj|solutionrelative:entityframeworkdemo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D90D2656-1414-4F8E-A9AC-B667E9AFE2DC}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\diego\\source\\repos\\GUIAS-EntityFramework_Progra2\\accesodatos\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,8 +50,8 @@
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\GUIAS-EntityFramework_Progra2\\AccesoDatos\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\CustomerRepository.cs",
-              "ToolTip": "C:\\Users\\diego\\source\\repos\\GUIAS-EntityFramework_Progra2\\AccesoDatos\\CustomerRepository.cs",
-              "RelativeToolTip": "AccesoDatos\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\diego\\source\\repos\\GUIAS-EntityFramework_Progra2\\AccesoDatos\\CustomerRepository.cs*",
+              "RelativeToolTip": "AccesoDatos\\CustomerRepository.cs*",
               "ViewState": "AgIAAB8AAAAAAAAAAAAiwDgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T02:24:36.259Z",
@@ -59,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\GUIAS-EntityFramework_Progra2\\EntityFrameworkDEMO\\Form1.cs",
               "RelativeDocumentMoniker": "EntityFrameworkDEMO\\Form1.cs",
@@ -72,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\GUIAS-EntityFramework_Progra2\\EntityFrameworkDEMO\\Form1.cs",
               "RelativeDocumentMoniker": "EntityFrameworkDEMO\\Form1.cs",
